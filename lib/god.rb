@@ -53,6 +53,7 @@ require 'god/conditions/complex'
 require 'god/conditions/file_mtime'
 require 'god/conditions/file_touched'
 require 'god/conditions/socket_responding'
+require 'god/conditions/delayed_job_exceeded_limit'
 
 require 'god/socket'
 require 'god/driver'
